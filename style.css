@@ -1,0 +1,306 @@
+ <style>
+    .hide {
+      display: none;
+    }
+    
+
+
+
+
+    .form1 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-radius: 12px;
+      border: 2px solid black;
+      box-shadow: -3px 3px;
+    }
+
+    .model-header1 {
+      background-color: grey;
+      color: blanchedalmond;
+    }
+
+    .modal-body1 {
+      background-color: rgb(167, 123, 209);
+
+    }
+
+    .modal-footer1 {
+      background-color: grey;
+    }
+
+
+
+    @media screen and (max-width: 500px) {
+      body {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        background-image: url('backgroundmobile.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+
+      #specilitybtn {
+        background-color: skyblue;
+      }
+
+      #offersbtn {
+        background-color: skyblue;
+      }
+
+      footer {
+        display: none;
+      }
+
+      #subcontactusphone {
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 12px;
+        margin-left: 3vw;
+        margin-right: 3vw;
+
+      }
+
+      .accordion-body1 {
+        background-color: rgba(129, 176, 194, 0.829);
+      }
+
+      .logo {
+        height: 4vh;
+        margin: .2vw;
+      }
+
+
+
+
+
+      #maincontent {
+        position: absolute;
+        margin-top: 35vh;
+
+        padding: 20px;
+
+
+      }
+
+      #maintext {
+        font-family: 'Architects Daughter';
+        color: white;
+
+      }
+
+      .card1 {
+        margin-bottom: 10px;
+        opacity: .9;
+        border-radius: 12px;
+        box-shadow: 5px 9px;
+      }
+
+      .sidebar {
+        display: none;
+      }
+
+      #accordin {
+        margin: 5px;
+
+      }
+
+      .cardaccordin {
+      margin: 10vw;
+        border-radius: 12px;
+        opacity: .9;
+
+
+      }
+    }
+
+    @media screen and (min-width: 500px) {
+      
+
+      body {
+        background-image: url('background.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        font-size: 1vw;
+
+
+
+      }
+     
+
+      .cardaccordin {
+        display: none;
+
+      }
+      .buttontxt{
+        font-size: 1.5vw;
+      }
+
+
+      .sidebar {
+        background-color: white;
+        height: 35vw;
+        border-radius: 12px;
+      }
+
+      #specility {
+        position: absolute;
+        left: 2vw;
+        top: 17vh;
+        
+
+        width: 20vw;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+      }
+
+
+      #marque {
+
+
+        color: red;
+
+      }
+
+      #contactus {
+        position: absolute;
+        right: 2vw;
+        top: 17vh;
+        
+
+        width: 20vw;
+      }
+
+      .nav-item-costum {
+        margin-left: 20vw;
+
+        width: fit-content;
+        text-align: center;
+
+        border-radius: 12px;
+      }
+
+      .nav-item-costum :hover {
+        background-color: skyblue;
+        border-radius: 12px;
+        width: fit-content;
+
+      }
+
+      #accordin {
+        display: none;
+      }
+
+
+      #maintext {
+        font-family: 'Architects Daughter';
+        position: absolute;
+        left: 33vw;
+        top: 10vh;
+        font-size: 40px;
+
+
+      }
+
+
+
+      #maincontent {
+        position: absolute;
+        top: 20vh;
+        left: 28vw;
+
+        display: flex;
+
+
+
+      }
+
+      .hosimage {
+        margin: 5px;
+      }
+
+      #subcontactus {
+        position: absolute;
+        bottom: 2px;
+        padding: .5vw;
+
+
+      }
+
+      .logo {
+        height: auto;
+        width: 2vw;
+        margin: .2vw;
+
+      }
+
+      .navbar {
+        position: fixed;
+        width: 100%;
+
+      }
+
+      #subcontactusphone {
+        display: none;
+      }
+
+      .card1 {
+
+        opacity: .9;
+        border-radius: 12px;
+        width: 14vw;
+        height: auto;
+        margin: 6px;
+        
+
+
+
+      }
+      .card-title1{
+        font-size: 1.5vw;
+      }
+
+      #specility {
+        box-shadow: -10px 10px;
+      }
+
+      #contactus {
+        box-shadow: 10px 10px;
+      }
+
+      #card_1 {
+        box-shadow: -5px 10px;
+      }
+
+      #card_2 {
+        border-bottom: 10px solid rgba(0, 0, 0, 0.815);
+
+      }
+
+      #card_3 {
+        box-shadow: 5px 10px;
+      }
+
+      .subtitle {
+        border: 2px solid black;
+        border-radius: 18px;
+        background-color: skyblue;
+        color: rgb(31, 25, 25);
+        font-size: 1.5rem;
+      }
+      .sidetxt{
+        font-size: 1.6vw;
+      }
+
+      .card-body1 {
+        text-align: center;
+      }
+    }
+  </style>
